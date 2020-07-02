@@ -1,7 +1,8 @@
 {
-  "name": "openseadragon-annotations",
+  "name": "osd-annotations",
   "version": "1.0.5",
-  "description": "OpenSeadragon annotations plugin",
+  "description": "Forked the OpenSeadragon annotations plugin",
+  "author2": "Tammy DiPrima",
   "homepage": "https://github.com/Emigre/openseadragon-annotations",
   "main": "src/main.js",
   "scripts": {
@@ -80,6 +81,8 @@
     "flow-bin": "^0.42.0",
     "jsdom": "^9.11.0",
     "nyc": "^10.1.2",
+    "openseadragon": "^2.4.2",
+    "openseadragon-annotations": "^1.0.5",
     "rimraf": "^2.6.1",
     "sinon": "^1.17.6",
     "url-loader": "^0.5.8",
