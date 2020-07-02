@@ -1,8 +1,7 @@
 {
   "name": "osd-annotations",
   "version": "1.0.5",
-  "description": "Forked the OpenSeadragon annotations plugin",
-  "author2": "Tammy DiPrima",
+  "description": "OpenSeadragon annotations plugin",
   "homepage": "https://github.com/Emigre/openseadragon-annotations",
   "main": "src/main.js",
   "scripts": {
