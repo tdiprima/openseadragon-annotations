@@ -1,3 +1,4 @@
+# OpenSeadragon Annotations
 This plugin allows you to draw vector annotations over [OpenSeadragon](https://openseadragon.github.io/) deep zoom images. The plugin creates the drawings on a SVG overlay that scales with the image.
 
 ![Preview](img/preview.gif)
