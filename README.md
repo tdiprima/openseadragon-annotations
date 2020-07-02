@@ -34,8 +34,10 @@ const viewer = OpenSeadragon({
     }
 });
 
-const annotations = new OpenSeadragon.Annotations({ viewer });
+//const annotations = new OpenSeadragon.Annotations({ viewer }); <- nope.
+viewer.initializeAnnotations(); // yes :)
 ```
+:thumbsup:
 
 The viewer screen will have an additional set of icons at the bottom-left side, that you can use to toggle the drawing mode and draw annotatations over the image.
 
