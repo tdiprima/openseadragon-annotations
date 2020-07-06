@@ -8,36 +8,35 @@
     <script src='./node_modules/openseadragon/build/openseadragon/openseadragon.min.js'></script>
     <script src='./node_modules/openseadragon-annotations/dist/openseadragon-annotations.js'></script>
     <style>
-        html,
-        body,
-        .openseadragon1 {
-            width: 100%;
-            height: 100%;
-            margin: 0;
+        #foo {
+            width: 400px;
+            height: 300px;
         }
-        body { font-family: sans-serif; }
+
+        body {
+            font-family: sans-serif;
+        }
     </style>
 </head>
 
 <body>
     <p><a href="https://github.com/Emigre/openseadragon-annotations/issues/9">Issue 9</a>
         <a href="https://github.com/Emigre/openseadragon-annotations/issues/23">Issue 23</a></p>
-    <div id="contentDiv" class="openseadragon1"></div>
+    <div id="foo"></div>
     <script>
         const viewer = OpenSeadragon({
-            id: 'contentDiv',
+            id: 'foo',
             showNavigator: true,
             tileSources: {
                 Image: {
                     xmlns: "http://schemas.microsoft.com/deepzoom/2008",
-                    Url: "http://openseadragon.github.io/example-images/highsmith/highsmith_files/",
+                    Url: "//openseadragon.github.io/example-images/duomo/duomo_files/",
                     Format: "jpg",
                     Overlap: "2",
                     TileSize: "256",
-                    ServerFormat: 'Default',
                     Size: {
-                        Height: "9221",
-                        Width: "7026"
+                        Width: "13920",
+                        Height: "10200"
                     }
                 }
             }
